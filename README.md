@@ -1,4 +1,6 @@
-# DABP
+# Decision Analytics for Business & Policy
+
+# Final Project
 
 The repository contains the following files:
 
