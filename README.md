@@ -9,7 +9,7 @@ The repository contains the following files:
     - main.py
 2) **SIR_final.ipynb** that contains the code for the SIR model
 3) **Daily Cases USA.csv** that is the data file that is being fed into the SIR model
-4) **our_enviroment.yml** that is the conda environment we used to run the neural network and SIR models (FYI)
+4) **our_enviroment.yml** that is the conda environment we used to run the neural network and SIR models (FYI). You can create the same conda enviroment we used with **conda env create -f our_environment.yml ** .Streamlit can be tricky to install depending on the OS of your computer. Please try 'pip3 install streamlit' if conda doesn't work.
 
 ## Running the model
 1) Run the **monekypox-cnn.ipynb** to train the neural network (this took around 20 minutes to run). The result will be stored in the **saved_model** folder. Then run the **model_evaluation.ipynb** file to load the neural network from the **saved_model** folder. This will create the ROC curve and the confusion matrix which are also stored as .jpg files in the repository. Finally, run the command: **streamlit run monkeypox_models_app/main.py** to launch the streamlit application.
