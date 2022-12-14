@@ -5,8 +5,11 @@
 The repository contains the following files:
 
 1) **SIR_final.ipynb** that contains the code for the SIR model
-2) **monkeypox_models_app** folder that contains the code for the Neural Network model
-3) **Daily Cases USA.csv** that is the data file that is being fed into the SIR model
+2) **monkeypox_models_app** folder that contains the code for the Neural Network model:
+    - monekypox-cnn-78.ipynb
+    - model_evaluation.ipynb
+    - main.py
+4) **Daily Cases USA.csv** that is the data file that is being fed into the SIR model
 
 ## Running the model
 
